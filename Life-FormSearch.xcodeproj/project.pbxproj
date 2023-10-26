@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8CF00C862AEADBDE00F1A662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF00C852AEADBDE00F1A662 /* AppDelegate.swift */; };
 		8CF00C882AEADBDE00F1A662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF00C872AEADBDE00F1A662 /* SceneDelegate.swift */; };
-		8CF00C8A2AEADBDE00F1A662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF00C892AEADBDE00F1A662 /* ViewController.swift */; };
 		8CF00C8D2AEADBDE00F1A662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF00C8B2AEADBDE00F1A662 /* Main.storyboard */; };
 		8CF00C8F2AEADBE000F1A662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF00C8E2AEADBE000F1A662 /* Assets.xcassets */; };
 		8CF00C922AEADBE000F1A662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF00C902AEADBE000F1A662 /* LaunchScreen.storyboard */; };
+		8CF00C9A2AEAE32D00F1A662 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF00C992AEAE32D00F1A662 /* SearchTableViewController.swift */; };
+		8CF00C9C2AEAE36100F1A662 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF00C9B2AEAE36100F1A662 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CF00C822AEADBDE00F1A662 /* Life-FormSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life-FormSearch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF00C852AEADBDE00F1A662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF00C872AEADBDE00F1A662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8CF00C892AEADBDE00F1A662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CF00C8C2AEADBDE00F1A662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CF00C8E2AEADBE000F1A662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CF00C912AEADBE000F1A662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CF00C932AEADBE000F1A662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF00C992AEAE32D00F1A662 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		8CF00C9B2AEAE36100F1A662 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				8CF00C852AEADBDE00F1A662 /* AppDelegate.swift */,
 				8CF00C872AEADBDE00F1A662 /* SceneDelegate.swift */,
-				8CF00C892AEADBDE00F1A662 /* ViewController.swift */,
 				8CF00C8B2AEADBDE00F1A662 /* Main.storyboard */,
 				8CF00C8E2AEADBE000F1A662 /* Assets.xcassets */,
 				8CF00C902AEADBE000F1A662 /* LaunchScreen.storyboard */,
 				8CF00C932AEADBE000F1A662 /* Info.plist */,
+				8CF00C992AEAE32D00F1A662 /* SearchTableViewController.swift */,
+				8CF00C9B2AEAE36100F1A662 /* DetailViewController.swift */,
 			);
 			path = "Life-FormSearch";
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF00C8A2AEADBDE00F1A662 /* ViewController.swift in Sources */,
 				8CF00C862AEADBDE00F1A662 /* AppDelegate.swift in Sources */,
+				8CF00C9A2AEAE32D00F1A662 /* SearchTableViewController.swift in Sources */,
 				8CF00C882AEADBDE00F1A662 /* SceneDelegate.swift in Sources */,
+				8CF00C9C2AEAE36100F1A662 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
