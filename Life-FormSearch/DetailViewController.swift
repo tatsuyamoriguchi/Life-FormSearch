@@ -9,7 +9,6 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    let scrollView = UIScrollView
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,6 +32,7 @@ extension Data {
     func prettyPrintedJSONString() {
         guard let jsonObject = try? JSONSerialization.jsonObject(with: self, options: []), let jsonData = try? JSONSerialization.data(withJSONObject: jsonObject, options: [.prettyPrinted]), let prettryJSONString = String(data: jsonData, encoding: .utf8) else {
             print("Failed to read JSON obejct for prettyPrintedJSONString()")
+            return
         }
         print(prettryJSONString)
                 
