@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C425F5E2AEB71AD009A6453 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C425F5D2AEB71AD009A6453 /* APIRequest.swift */; };
+		8C425F602AEB71D3009A6453 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C425F5F2AEB71D3009A6453 /* APIService.swift */; };
+		8C425F622AEB71E5009A6453 /* EOLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C425F612AEB71E5009A6453 /* EOLController.swift */; };
+		8C425F642AEB7208009A6453 /* EOLHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C425F632AEB7208009A6453 /* EOLHierarchy.swift */; };
+		8C425F662AEB7217009A6453 /* EOLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C425F652AEB7217009A6453 /* EOLItem.swift */; };
+		8C425F682AEB7222009A6453 /* EOLItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C425F672AEB7222009A6453 /* EOLItemDetail.swift */; };
 		8CF00C862AEADBDE00F1A662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF00C852AEADBDE00F1A662 /* AppDelegate.swift */; };
 		8CF00C882AEADBDE00F1A662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF00C872AEADBDE00F1A662 /* SceneDelegate.swift */; };
 		8CF00C8D2AEADBDE00F1A662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF00C8B2AEADBDE00F1A662 /* Main.storyboard */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C425F5D2AEB71AD009A6453 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		8C425F5F2AEB71D3009A6453 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8C425F612AEB71E5009A6453 /* EOLController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLController.swift; sourceTree = "<group>"; };
+		8C425F632AEB7208009A6453 /* EOLHierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLHierarchy.swift; sourceTree = "<group>"; };
+		8C425F652AEB7217009A6453 /* EOLItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItem.swift; sourceTree = "<group>"; };
+		8C425F672AEB7222009A6453 /* EOLItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItemDetail.swift; sourceTree = "<group>"; };
 		8CF00C822AEADBDE00F1A662 /* Life-FormSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life-FormSearch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF00C852AEADBDE00F1A662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF00C872AEADBDE00F1A662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +78,12 @@
 				8CF00C932AEADBE000F1A662 /* Info.plist */,
 				8CF00C992AEAE32D00F1A662 /* SearchTableViewController.swift */,
 				8CF00C9B2AEAE36100F1A662 /* DetailViewController.swift */,
+				8C425F5D2AEB71AD009A6453 /* APIRequest.swift */,
+				8C425F5F2AEB71D3009A6453 /* APIService.swift */,
+				8C425F612AEB71E5009A6453 /* EOLController.swift */,
+				8C425F632AEB7208009A6453 /* EOLHierarchy.swift */,
+				8C425F652AEB7217009A6453 /* EOLItem.swift */,
+				8C425F672AEB7222009A6453 /* EOLItemDetail.swift */,
 			);
 			path = "Life-FormSearch";
 			sourceTree = "<group>";
@@ -142,8 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF00C862AEADBDE00F1A662 /* AppDelegate.swift in Sources */,
+				8C425F622AEB71E5009A6453 /* EOLController.swift in Sources */,
+				8C425F682AEB7222009A6453 /* EOLItemDetail.swift in Sources */,
 				8CF00C9A2AEAE32D00F1A662 /* SearchTableViewController.swift in Sources */,
 				8CF00C882AEADBDE00F1A662 /* SceneDelegate.swift in Sources */,
+				8C425F662AEB7217009A6453 /* EOLItem.swift in Sources */,
+				8C425F642AEB7208009A6453 /* EOLHierarchy.swift in Sources */,
+				8C425F5E2AEB71AD009A6453 /* APIRequest.swift in Sources */,
+				8C425F602AEB71D3009A6453 /* APIService.swift in Sources */,
 				8CF00C9C2AEAE36100F1A662 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
