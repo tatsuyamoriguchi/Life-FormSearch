@@ -35,7 +35,7 @@ struct EOLItemDetailAPIRequest: APIRequest {
     
     var urlRequest: URLRequest {
         let query = [
-            "image_per_page": "1",
+            "images_per_page": "1",
             "language": "en",
             "taxnomy": "true"
         ]
