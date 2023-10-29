@@ -8,23 +8,18 @@
 import Foundation
 
 struct EOLItem: Codable {
-    var itemPerPage: Int
-    var results: [resultsArray]
-    var totalResults: Int
-    var startIndex: Int
     
-}
-
-struct resultsArray: Codable {
+    var commonName: String
+    var scientificName: String
     var id: Int
-    var title: String
-    var content: String
-    var link: String
     
     enum CodingKeys: String, CodingKey {
+        case commonName = "content"
+        case scientificName = "title"
         case id
-        case title = "scientificName"
-        case content = "commonName"
-        case link
     }
+}
+
+struct SearchResponse: Codable {
+    let results: [EOLItem]
 }
