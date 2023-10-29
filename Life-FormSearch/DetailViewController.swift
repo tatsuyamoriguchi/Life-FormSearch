@@ -65,7 +65,7 @@ class DetailViewController: UIViewController {
                 updateMediaDetail(with: dataObject)
                 
                 loadInfoTask = nil
-                
+                print("dataObject: \(dataObject)")
             } catch {
                 print(error)
             }
@@ -98,7 +98,7 @@ class DetailViewController: UIViewController {
     
     func updateClassificationDetails(with hierarchy: EOLHierarchy) {
         if let ancestors = hierarchy.ancestors {
-            kingdomLabel.text = ancestors.first(where: {$0.taxonRank == "kingom"})?.scientificName
+            kingdomLabel.text = ancestors.first(where: {$0.taxonRank == "kingdom"})?.scientificName
             phylumLabel.text = ancestors.first(where: { $0.taxonRank == "phylum" })?.scientificName
             classLabel.text = ancestors.first(where: { $0.taxonRank == "class" })?.scientificName
             orderLabel.text = ancestors.first(where: { $0.taxonRank == "order"})?.scientificName
@@ -109,6 +109,7 @@ class DetailViewController: UIViewController {
     
     func image(for dataObject: DataObject?) async throws -> UIImage? {
         guard let mediaURL = dataObject?.eolMediaURL else {
+            print("image error")
             return nil
         }
         let imageRequest = EOLImageAPIRequest(url: mediaURL)
@@ -150,17 +151,5 @@ class DetailViewController: UIViewController {
         }
         
     }
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
-

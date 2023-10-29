@@ -40,6 +40,7 @@ struct EOLItemDetailAPIRequest: APIRequest {
             "taxnomy": "true"
         ]
         
+        print("https://eol.org/api/pages/1.0/" + "\(item.id)" + ".json")
         var urlComponents = URLComponents(string: "https://eol.org/api/pages/1.0/" + "\(item.id)" + ".json")!
         urlComponents.queryItems = query.map{ URLQueryItem(name: $0.key, value: $0.value) }
         return URLRequest(url: urlComponents.url!)
